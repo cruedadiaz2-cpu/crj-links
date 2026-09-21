@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Construction &amp; Renovation CRJ &middot; WhatsApp</title>
+<meta name="robots" content="noindex">
+<!--
+  Short link with no query string, because Meta Business Suite strips the query
+  off a URL typed into a post. A bare wa.me/<number> opens an empty chat; this
+  hop keeps the greeting.
+-->
+<meta http-equiv="refresh" content="0; url=https://wa.me/13105619721?text=Hi%20CRJ%20Construction%20%26%20Renovation%2C%20I%27d%20like%20more%20information%20about%20your%20services%20and%20a%20free%20estimate%2E">
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: #1A1A1A; color: #FFFFFF; padding: 24px; text-align: center;
+    font-family: Poppins, "Century Gothic", system-ui, -apple-system, Segoe UI, sans-serif;
+  }
+  .stripe { position: fixed; top: 0; left: 0; right: 0; height: 6px; display: flex; }
+  .stripe span { flex: 1; }
+  p { margin: 0 0 14px; font-size: 18px; }
+  a { color: #E18437; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="stripe"><span style="background:#F9E14A"></span><span style="background:#E18437"></span><span style="background:#82BFB4"></span></div>
+<main>
+  <p>Opening WhatsApp</p>
+  <p><a id="wa" href="https://wa.me/13105619721?text=Hi%20CRJ%20Construction%20%26%20Renovation%2C%20I%27d%20like%20more%20information%20about%20your%20services%20and%20a%20free%20estimate%2E">Tap here if it does not open by itself</a></p>
+</main>
+<script>
+  location.replace(document.getElementById('wa').href);
+</script>
+</body>
+</html>

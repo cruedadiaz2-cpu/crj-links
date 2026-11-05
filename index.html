@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Construction &amp; Renovation CRJ LLC</title>
-<meta name="description" content="Painting, floors, bathrooms, kitchens and general maintenance in New Jersey.">
+<meta name="description" content="Painting, floors, bathrooms, kitchens and general maintenance. Licensed and insured, NJ HIC Reg. #13VH12981200.">
 <!-- noindex: esta pagina es para el enlace de la bio, no para competir en Google
      con crjconstructionusa.com, que es el sitio real de CRJ. -->
 <meta name="robots" content="noindex">
@@ -20,8 +20,7 @@
   .stripe span { flex: 1; }
   main { width: 100%; max-width: 420px; text-align: center; }
   h1 { font-size: 26px; line-height: 1.25; margin: 0 0 6px; letter-spacing: 0.5px; }
-  .sub { margin: 0 0 8px; font-size: 16px; color: #E9E9E9; }
-  .place { margin: 0 0 28px; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; color: var(--naranja); }
+  .sub { margin: 0 0 28px; font-size: 16px; color: #E9E9E9; }
   a.btn {
     display: block; padding: 16px 18px; margin-bottom: 14px; border-radius: 12px;
     font-size: 17px; font-weight: 600; text-decoration: none;
@@ -36,12 +35,16 @@
 <main>
   <h1>Construction &amp; Renovation CRJ</h1>
   <p class="sub">Painting, floors, bathrooms and kitchens</p>
-  <p class="place">New Jersey</p>
 
-  <a class="btn" href="https://wa.me/13105619721?text=Hi%20CRJ%20Construction%20%26%20Renovation%2C%20I%27d%20like%20more%20information%20about%20your%20services%20and%20a%20free%20estimate%2E">Message us on WhatsApp</a>
+  <a class="btn" id="quoteLink" href="quote/">Get a free estimate</a>
+  <a class="btn ghost" href="https://wa.me/13105619721?text=Hi%20CRJ%20Construction%20%26%20Renovation%2C%20I%27d%20like%20more%20information%20about%20your%20services%20and%20a%20free%20estimate%2E">Message us on WhatsApp</a>
   <a class="btn ghost" href="tel:+13105619721">Call or text (310) 561-9721</a>
+  <script>
+    // Carry ?src= (e.g. src=google from the Google profile) to the form, so the request names its source.
+    if (location.search) document.getElementById('quoteLink').search = location.search;
+  </script>
 
-  <footer>Construction and Renovation CRJ LLC</footer>
+  <footer>Construction and Renovation CRJ LLC<br>Licensed &amp; insured · NJ HIC Reg. #13VH12981200</footer>
 </main>
 </body>
 </html>
